@@ -1,0 +1,31 @@
+{
+  "name": "examen_ms",
+  "version": "1.0.0",
+  "description": "Proyecto para desarrollar el examen",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon app/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADSO26/ms_backend_usuario.git"
+  },
+  "author": "Juan Sebastian Castañeda Cuadros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADSO26/ms_backend_usuario/issues"
+  },
+  "homepage": "https://github.com/ADSO26/ms_backend_usuario#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "nodemon": "^3.1.0"
+  }
+}
