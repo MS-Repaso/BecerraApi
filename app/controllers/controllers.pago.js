@@ -1,6 +1,6 @@
 import pool from "../config/mysql.db";
 
-export const showPago = async (req, res)=>{
+export const showPago = (req, res)=>{
     const id = req.params['id'];
     try {
         
@@ -15,7 +15,7 @@ export const listPago = (req, res => {
     } catch (error) {
         
     }
-})
+});
 
 export const insertPago = (req, res => {
     try {
@@ -23,7 +23,7 @@ export const insertPago = (req, res => {
     } catch (error) {
         
     }
-})
+});
 
 export const updatePago = (req, res => {
     try {
@@ -31,7 +31,7 @@ export const updatePago = (req, res => {
     } catch (error) {
         
     }
-})
+});
 
 export const deletePago = (req, res => {
     try {
@@ -39,4 +39,4 @@ export const deletePago = (req, res => {
     } catch (error) {
         
     }
-})
+});
