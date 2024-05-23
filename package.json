@@ -4,7 +4,7 @@
   "description": "Proyecto para desarrollar el examen",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon app/index.js --exec babel-node",
+    "dev": "nodemon app/index.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ADSO26/ms_backend_usuario#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mysql2": "^3.9.7"
   },
